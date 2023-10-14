@@ -109,9 +109,12 @@ story_sections = {
 
 class PetriNet:
     def __init__(self):
-        self.places = {"Start": 1, "Home": 0, "Lake": 0, "Forest": 0, "End": 0}
+        self.places = {"Start": 1,
+                       "Home1": 0, "Home2": 0, "Home3": 0, "Home4": 0,
+                       "HomeGrendmas1": 0,"HomeGrendmas2": 0,"HomeGrendmas3": 0,"HomeGrendmas4": 0,"HomeGrendmas5": 0,
+                       "Forest1": 0, "Forest2": 0,
+                       "End": 0}
 
-    # ... (other methods remain the same)
 
 if __name__ == "__main__":
     petri_net = PetriNet()
